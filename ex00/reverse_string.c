@@ -13,21 +13,21 @@
 
 char* reverse_string(char* param_1)
 {
-    char* s = param_1;
+	char* s = param_1;
 	char c;
 	int l = strlen((char*) s);
 	int i = 0;
 	int j = l - 1;
 
-    while ( i < j )
-    {
-        c = s[i];
-        s[i] = s[j];
-        s[j] = c;
-        i++;
-        j--;
-    }
-    return s;
+	while ( i < j )
+	{
+		c = s[i];
+		s[i] = s[j];
+		s[j] = c;
+		i++;
+		j--;
+	}
+	return s;
 }
 
 /*
