@@ -31,8 +31,14 @@ char* my_strchr(char* param_1, char param_2)
 
 /*int main()
 {
-	char* s = "Hi. My name is Karl.";
-	char c = 'K';
+	char* s_1 = "My name is Karl.";
+	char c_1 = 'K';
+	char* s_2 = "My name is Karl.";
+	char c_2 = 'a';
+	char* s_3 = "My name is Karl.";
+	char c_3 = 'z';
 
-	printf("%s\n", my_strchr(s, c));
+	printf("%s\n", my_strchr(s_1, c_1));
+	printf("%s\n", my_strchr(s_2, c_2));
+	printf("%s\n", my_strchr(s_3, c_3));
 }*/
